@@ -1,4 +1,4 @@
-browser.ignoreSynchronization = true;//to use protractor on non-angular pages
+//browser.ignoreSynchronization = true - to use protractor on non-angular pages ( it makes protractor not wait for Angular promises
 
 describe('test AC application', function(){
 	it ('to login to AC app and check the page title', function(){
